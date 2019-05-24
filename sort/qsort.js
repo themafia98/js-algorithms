@@ -4,7 +4,7 @@
 После этого рекурсивно выполнить ту же операцию на элементы до и после опорного.
 */
 
-const qsort = arr => {
+export default function qsort(arr) {
 
     if (arr.length <= 1){
         return arr;
@@ -18,4 +18,3 @@ const qsort = arr => {
 };
 
 
-console.log(qsort([5,6,1,2,3,4]));
